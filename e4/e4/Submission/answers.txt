@@ -1,0 +1,7 @@
+1. I do not think that daily temperatures are a good way to predict population density.
+This is because certain cities can have larger buildings like skyscrapers, and/or many more trees
+that create shade. This could be a factor that affects the readings of daily temperature.
+
+2. By allowing the program to decompress every time we ran our program it saves memory
+on the hard drive, which allows for a faster read for the program. If the files were uncompressed
+the computer would read files slower due to the memory difference, causing the program to be slower.

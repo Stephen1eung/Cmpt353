@@ -1,0 +1,8 @@
+1. The calculation is to find the least-squares regression value for 
+the variables timestamp and ratings. The results give us a float vlaue 
+which is the prediction of the tweets rating when considering the creation date.
+
+2. It produces a fit line on the graph using the least-squares method, which 
+find the best fitline that constains the least squares of error. Timestamp values are 
+created_at values converted to time; therefore, by considering rating this allows 
+us to generate the best fit line as well as plot the graph.

@@ -1,0 +1,59 @@
+data-1.csv
+              X          Y
+mean   8.717696  12.522874
+std   12.155517   6.639964
+min  -22.635878  -2.565088
+max   35.237055  27.384153
+correlation coefficient between x and y: 
+0.9503256954375487
+Dataset contains 100 x and y values which shows their relationship.
+
+data-2.csv
+              X          Y
+mean  -0.710787  -0.748987
+std   11.481584   6.257918
+min  -33.271113 -18.621804
+max   27.647000  14.147315
+correlation coefficient between x and y: 
+0.9551531665750372
+Dataset contains 100 x and y values that contains many outliers.
+
+data-3.csv
+             X          Y
+mean  0.968907   8.508535
+std   2.235558   1.149301
+min  -2.449064   6.641734
+max   4.518885  10.551871
+correlation coefficient between x and y: 
+0.9819372646760661
+Dataset contains 300 x and y values that have small x values and large y values.
+
+data-4.csv
+              X          Y
+mean  49.905086  18.553837
+std   28.508611  16.545896
+min    0.000000   0.000000
+max   87.376700  44.565040
+correlation coefficient between x and y: 
+-0.08119306735490814
+Dataset contains 120 x and y values that are very different in values.
+
+data-5.csv
+              X          Y
+mean  49.909994  18.555525
+std   28.500001  16.540796
+min    4.337892   0.055498
+max   91.052863  49.934197
+correlation coefficient between x and y: 
+-0.08823598983058889
+Dataset contains 120 x and y values that are very different in values.
+
+data-6.csv
+              X          Y
+mean   7.216155   7.602215
+std   11.921599  11.764382
+min  -24.333821 -22.956357
+max   35.402139  36.079874
+correlation coefficient between x and y: 
+0.9350685662094911
+Dataset contains 100 x and y values that are very similar in values.

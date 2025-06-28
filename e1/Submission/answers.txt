@@ -1,0 +1,19 @@
+1. Where you did the same calculations with NumPy and Pandas, 
+which did you find easier to work with? Which code do you think is easier to read?
+
+I found the NumPy calculations to be easier to work with. 
+This was because of the slightly shorter commands; for example, 
+when comparing “np.sum(counts, axis=0)” to “pd.DataFrame.sum(counts, axis=0)”. 
+We can see that the NumPy command is much shorter which provides easier readability as well as less keystrokes.
+When working with larger scaled projects, NumPy’s shorter commands would be much easier to work with.
+
+
+
+
+2. What were the running times of the two pivot_months_* functions? How can you explain the difference?
+
+The run time of pivot_months_pandas is 7.62 ms ± 86.6 µs per loop
+The run time of pivot_months_loops is 193 ms ± 2.01 ms per loop
+
+Seen in the results, the use of pandas is much faster. 
+In this case, by using pandas we have achieved 25x faster than the conventional methods like the standard loops.

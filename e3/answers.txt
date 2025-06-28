@@ -1,0 +1,7 @@
+1. I believe LOESS smoothing is better, because it has a smoother line. One difference i noticed about
+the Kalman smoothing was that outliers affected the graph significantly. 
+
+2. I believe that accelerometer would help with a better prediction. Suppose an individual begins running,
+if we implemented an algorithm that notices a speed difference, we can minimize the noise from the 
+latitude measurement from the bouncing of running. We could also use the extra information to adjust our
+transition matrix values. silimarily with the gyroscope, we could see the rate of turning, pitch, roll and yaw.

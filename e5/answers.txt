@@ -1,0 +1,13 @@
+1. When testing np.log, np.exp, np.sqrt, counts**2, np.sqrt seemed to come closest to 
+satisfying the assumption t-test.
+
+2. The p-value of the orignal t test and transformed values are smaller than 0.05; therefore, we can reject the null hypothesis 
+and can assume the data is not normal distributed.
+
+3. I think the fix 2: Central Limit Theorem came closest to answering the question of 
+"do the number of comments on weekends and weekdays for each week differ?". This is because
+all of the other fixes reject the null hypothesis.
+
+4. On average there are more comments on the weekdays, this is most likely because the weekday consists of 
+5 days whereas there are 2 on the weekend. When looking into the data between the two there are over twice as many
+rows in weekdays than there are in weekend.
