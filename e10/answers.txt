@@ -1,0 +1,37 @@
+1.
+reddit-0 (schema, no cache)
+real 6.471s
+user 15.159s
+sys 1.621s
+
+reddit-0 (schema, cache)
+real 4.748s
+user 10.242s
+sys 1.417s
+
+No matter we use schema or cache, the running time of reddit-0 is similar.
+
+2.
+reddit-2b: (no schema, no cache)
+real 5.701s
+user 10.295s
+sys 1.452s
+
+reddit-2b: (schema, no cache)
+real 20.126s
+user 36.787s
+sys 2.051s
+
+reddit-2b: (schema, cache)
+real 4.874s
+user 10.411s
+sys 1.449s
+
+Schema and caching makes the running time of reddit-2b faster.
+
+Reading the file seems to take more computational time than calculating the average.
+
+3.
+I put cached the program right after calculating the max, i found this to be the most effective
+spot to cashe my program. Putting the cache function at which is after calculating max, but
+before selecting and joining has the fastest running time.

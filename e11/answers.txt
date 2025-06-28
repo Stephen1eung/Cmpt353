@@ -1,0 +1,18 @@
+1. In reddit_relative.py without .cache(), the program would have to recalculate many dataframes.
+Which is one of spark's downsides of lazy evaluation as seen in the lecture. Spark will recalculate
+the comments dataframe slowing down overall runtime. With .cache() spark is able to keep the memory
+of comments and reuse it without recalculating / reading from the json file.
+
+2. The runtime difference between broadcast and non-broadcast is not ever significant.
+Although using broadcasts do reduce the runtime of the reddit relative program, the significance
+may be far greater with larger datasets.
+
+broadcast:
+real 9.29
+user 52.72
+sys 2.39
+
+non-broadcast:
+real 12.36
+user 52.144
+sys 2.462
