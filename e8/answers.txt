@@ -1,0 +1,8 @@
+1. The K neighbors and random forest models were fairly similar.
+However the K neighbors classifer outperforms slighty and seems to do the best for the colour prediction. 
+This is probrably because the dataset is considered large and clumped together. 
+Therefore, with the nature of K neighbors; not allowing outliers to effect the performance drastically.
+RGB LAB HSV most likely worked better for different models because of the differences in the alogirthm.
+
+2. The models make various mistakes, I beleive this is because certain cities may have close whether conditions
+which may throw off the modeling. The desnity of oxygen within the region may help with better predictions.

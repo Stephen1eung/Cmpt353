@@ -1,0 +1,4 @@
+1. With a p value of 1.5139e-106 after regression, we can conclude that the residuals are increasing
+enought to be away from 0. The residuals are close enough to being normal.
+
+2. I believe the kalm filter does a better job at capturing the signal.

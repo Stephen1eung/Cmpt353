@@ -1,0 +1,10 @@
+1. I don't believe we are p-hacking because when using the chi2 test and mannwhiteneyu, 
+I found p-values < 0.05, which means we do not need to reject our null hypothesis.
+We conclude that there is not a correlation between the data.
+
+2. If we did t-tests for the sorting algorithms, we would have to do 
+(7x6)/2 = 21 tests. since its a 5% reject and we have 21 tests, we're guarenteed
+we'll have atleast one reject.
+
+3. The fasest sorting method was partition sort, qs1, qs3, qs2, qs5, qs4, merge1.
+qs2 - qs5 were all undistingustable because their means were almost identical.
